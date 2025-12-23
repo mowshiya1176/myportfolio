@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Instagram, ArrowDown } from "lucide-react";
-import markHeadshot from "@/assets/mark-gray-headshot.jpg";
+import markHeadshot from "@/assets/mowwshiya.jpeg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="space-y-8 text-center md:text-left">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-              Hi, It's <span className="gradient-text">Mark</span>
+              Hi, It's <span className="gradient-text">Mowshiya</span>
             </h1>
             <h3 className="text-2xl md:text-4xl font-semibold text-muted-foreground">
               I'm a <span className="gradient-text">Web Developer</span>
@@ -36,8 +36,8 @@ const Hero = () => {
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start space-x-6">
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
+              { icon: Github, href: "https://github.com/", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/mowshiya-pandiyan-63532828b/", label: "LinkedIn" },
               { icon: Instagram, href: "#", label: "Instagram" },
             ].map(({ icon: Icon, href, label }) => (
               <a
@@ -78,7 +78,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-2xl opacity-30 scale-110"></div>
             <img
               src={markHeadshot}
-              alt="Mark Gray - Web Developer"
+              alt="Mowshiya PAndiyan - Web Developer"
               className="relative w-80 h-80 rounded-full object-cover border-4 border-purple-500/20 shadow-2xl"
             />
           </div>

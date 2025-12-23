@@ -5,7 +5,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "#", label: "www.linkedin.com/in/mowshiya-pandiyan-63532828b" },
     { icon: Instagram, href: "#", label: "Instagram" },
   ];
 
@@ -22,7 +22,7 @@ const Footer = () => {
             onClick={scrollToTop}
             className="text-2xl font-bold cursor-pointer smooth-transition hover:scale-110"
           >
-            Mark <span className="gradient-text">Gray</span>
+            Mowshiya <span className="gradient-text">Pandiyan</span>
           </button>
 
           {/* Social Links */}
@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-muted-foreground">
             <span>© {currentYear} Made with</span>
             <Heart size={16} className="text-red-500" />
-            <span>by Mark Gray</span>
+            <span>by Mowshiya Pandiyan</span>
           </div>
         </div>
       </div>

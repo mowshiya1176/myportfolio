@@ -32,7 +32,7 @@ const Header = () => {
           className="text-3xl font-bold cursor-pointer smooth-transition hover:scale-110"
           onClick={() => scrollToSection("home")}
         >
-          Mark <span className="gradient-text">Gray</span>
+          Mowshiya <span className="gradient-text">Pandiyan</span>
         </div>
 
         {/* Desktop Navigation */}

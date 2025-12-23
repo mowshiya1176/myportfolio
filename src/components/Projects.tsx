@@ -5,14 +5,6 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
       title: "Task Management App",
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "/placeholder.svg",
@@ -24,10 +16,18 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A responsive portfolio website showcasing modern design principles with smooth animations and optimized performance.",
       image: "/placeholder.svg",
-      technologies: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
       liveUrl: "#",
       githubUrl: "#"
-    }
+    },
+    {
+    title: "Veloura Cafe – UI/UX Design",
+    description: "A modern and elegant cafe website design created in Figma, focusing on a premium coffee brand experience. Includes landing page, menu section, featured drinks, and contact layout with a warm, aesthetic visual style.",
+    image: "/veloura-cafe.png",
+    technologies: ["Figma", "UI/UX Design", "Wireframing", "Prototyping"],
+    liveUrl: "https://www.figma.com/site/hsJfXZsxkW7hNawU70L6uF/Veloura-cafe?node-id=0-1&t=hu8zCsdfPlmefH7l-1",
+}
+
   ];
 
   return (
