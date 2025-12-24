@@ -50,13 +50,11 @@ const Contact = () => {
       icon: Phone,
       label: "Phone",
       value: "+91 8778794914",
-      href: "tel:+15551234567"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
-      href: "#"
+      value: "Chennai, Tamil nadu, India",
     }
   ];
 
