@@ -5,11 +5,10 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/placeholder.svg",
-      technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-      liveUrl: "#",
+      title: "AI Admission Assistant",
+      description: "An AI admission assistant helps students with college admission queries, eligibility, courses, fees, and application steps—anytime, automatically.",
+      technologies: ["React", "supabase", "Tailwind CSS", "JavaScript", "HTML5", "CSS3"],
+      liveUrl: "https://ask-admit-flow.vercel.app/",
       githubUrl: "#"
     },
     {
