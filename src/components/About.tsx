@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   const technologies = [
-    "React", "TypeScript", "Python", "Tailwind CSS", "Figma","JavaScript", "HTML5", "CSS3", "Git",
+    "React", "TypeScript", "Python", "Tailwind CSS", "Figma","JavaScript", "HTML5", "CSS3", "Github", "supabase"
   ];
 
   return (

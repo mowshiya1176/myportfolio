@@ -5,24 +5,39 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+    title: "BrandPulse – AI-Powered LinkedIn Growth Platform",
+    description: "BrandPulse is a modern SaaS platform designed to help developers and creators turn their coding journey into LinkedIn influence. Users can connect GitHub, LeetCode, and HackerRank to automatically generate AI-crafted LinkedIn posts from their daily learning and commits. The platform focuses on personal branding, automation, and growth through consistent content creation with a sleek and conversion-focused UI.",
+    image: "src/assets/brandpulse.png",
+    technologies: ["React","TypeScript","Tailwind CSS","Vite","shadcn/ui","Open AI","Supabase"],
+    liveUrl: "https://brand-builder-ai-27.vercel.app/"
+},
+    {
+      title: "TT Dry Cleaning – Professional Service Website-Internship",
+      description: "A clean and modern website designed and developed for TT Dry Cleaning. This project focuses on showcasing garment care services, pricing, pickup & delivery options, customer benefits, and a responsive layout optimized for usability and conversions. Built with attention to detail to highlight trust and professionalism in laundry & dry cleaning services.",
+      image: "src/assets/tt-dry.png",
+      technologies: ["React","Typescript", "Tailwind CSS","Backend-emailjs"],
+      liveUrl: "https://tt-dry-cleaning-30ej28ne9-mowshis-projects.vercel.app/"
+},
+    {
       title: "AI Admission Assistant",
       description: "An AI admission assistant helps students with college admission queries, eligibility, courses, fees, and application steps—anytime, automatically.",
+      image: "src/assets/admi-ass.png",
       technologies: ["React", "supabase", "Tailwind CSS", "JavaScript", "HTML5", "CSS3"],
-      liveUrl: "https://ask-admit-flow.vercel.app/",
-      githubUrl: "#"
+      liveUrl: "https://addmission-assistant.vercel.app/",
+      githubUrl: "https://github.com/mowshiya1176/addmission-assistant"
     },
     {
       title: "Portfolio Website",
       description: "A responsive portfolio website showcasing modern design principles with smooth animations and optimized performance.",
-      image: "/placeholder.svg",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#"
+      image: "src/assets/portfolio.png",
+      technologies: ["React", "TypeScript","Node.js", "TailwindCSS"],
+      liveUrl: "https://myportfolio-jlp5.vercel.app/",
+      githubUrl: "https://github.com/mowshiya1176/myportfolio"
     },
     {
     title: "Veloura Cafe – UI/UX Design",
     description: "A modern and elegant cafe website design created in Figma, focusing on a premium coffee brand experience. Includes landing page, menu section, featured drinks, and contact layout with a warm, aesthetic visual style.",
-    image: "/veloura-cafe.png",
+    image: "src/assets/veloura-cafe.png",
     technologies: ["Figma", "UI/UX Design", "Wireframing", "Prototyping"],
     liveUrl: "https://www.figma.com/site/hsJfXZsxkW7hNawU70L6uF/Veloura-cafe?node-id=0-1&t=hu8zCsdfPlmefH7l-1",
 }

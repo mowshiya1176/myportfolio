@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Instagram, ArrowDown } from "lucide-react";
-import markHeadshot from "@/assets/mowwshiya.jpeg";
+import markHeadshot from "@/assets/mowshiya-prof.jpg.jpeg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -36,7 +36,7 @@ const Hero = () => {
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start space-x-6">
             {[
-              { icon: Github, href: "https://github.com/", label: "GitHub" },
+              { icon: Github, href: "https://github.com/mowshiya1176", label: "GitHub" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/mowshiya-pandiyan-63532828b/", label: "LinkedIn" },
               { icon: Instagram, href: "#", label: "Instagram" },
             ].map(({ icon: Icon, href, label }) => (

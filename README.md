@@ -5,7 +5,6 @@ projects, and experience. This project is designed for hackathons, resumes,
 and professional presentation.
 
 🔗 **Live Demo**: https://myportfolio-two-lyart-15.vercel.app  
-🛠️ **Built using Lovable.dev**
 
 ---
 
@@ -27,7 +26,6 @@ and professional presentation.
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
 - **UI Components**: shadcn/ui
-- **Platform**: Lovable.dev
 - **Deployment**: Vercel
 
 ---
