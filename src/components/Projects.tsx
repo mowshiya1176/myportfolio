@@ -6,10 +6,17 @@ import portfolioImg from "../assets/portfolio.png";
 import brandpulseImg from "../assets/brandpulse.png";
 import ttdryImg from "../assets/tt-dry.png";
 import velouraImg from "../assets/veloura-cafe.png";
-
+import sheskillImg from "../assets/sheskill.png";
 
 const Projects = () => {
   const projects = [
+    {
+    title: "SheSkill – Small Skills, Daily Income Platform",
+    description: "SheSkill is a platform created to support women who cannot start large businesses but want to earn a small daily income using their skills. The platform connects women with simple work opportunities such as stitching clothes, handmade products, and small home-based services. Even completing a small task like stitching one dress a day can help them earn a steady income. SheSkill focuses on empowering women, promoting self-reliance, and creating financial independence through small but meaningful work opportunities.",
+    image: sheskillImg,
+    technologies: ["React","TypeScript","Tailwind CSS","Vite","shadcn/ui","Supabase"],
+    liveUrl: "https://sheskill.vercel.app/"
+},
     {
     title: "BrandPulse – AI-Powered LinkedIn Growth Platform",
     description: "BrandPulse is a modern SaaS platform designed to help developers and creators turn their coding journey into LinkedIn influence. Users can connect GitHub, LeetCode, and HackerRank to automatically generate AI-crafted LinkedIn posts from their daily learning and commits. The platform focuses on personal branding, automation, and growth through consistent content creation with a sleek and conversion-focused UI.",
